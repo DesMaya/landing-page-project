@@ -1,6 +1,5 @@
 .intro-content {
     position: relative;
-    top: -8rem;
     display: grid;
     grid-template-columns: 1fr 1.5fr;
     gap: var(--gap);
@@ -80,4 +79,31 @@
 
 .gallery-img img:hover {
     transform: translate(-3%, 3%) scale(1.2) rotate(5deg);
+}
+
+.contact-form {
+    grid-column: span 2;
+}
+
+.contact-form .form-grid {
+    display: flex;
+    border: none;
+    flex-flow: row wrap;
+    gap: var(--gap);
+}
+
+.form-group {
+    flex: 1 1 32rem;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-group input,
+.form-group textarea {
+    border: none;
+    background-color: var(--white-color);
+    padding: 1.5rem 2rem;
+    width: 100%;
 }
