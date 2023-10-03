@@ -24,6 +24,7 @@
     height: 6.5rem;
 }
 
-.full-width {
+body .full-width {
     width: 100%;
+    flex: 1 1 100%;
 }
